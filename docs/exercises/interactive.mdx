@@ -1,0 +1,396 @@
+---
+sidebar_position: 3
+title: Interactive Quizzes
+---
+
+import Quiz from '@site/src/components/Quiz';
+
+# Interactive Quizzes
+
+Test your knowledge with instant feedback!
+
+---
+
+## Gender Identification
+
+<Quiz
+  title="What gender is each noun?"
+  questions={[
+    {
+      question: "kniha",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Feminine",
+      explanation: "-a ending = feminine"
+    },
+    {
+      question: "student",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Masculine",
+      explanation: "Consonant ending = masculine"
+    },
+    {
+      question: "město",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Neuter",
+      explanation: "-o ending = neuter"
+    },
+    {
+      question: "moře",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Neuter",
+      explanation: "-e ending (moře pattern) = neuter"
+    },
+    {
+      question: "růže",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Feminine",
+      explanation: "-e ending (růže pattern) = feminine"
+    }
+  ]}
+/>
+
+---
+
+## Gender Exceptions
+
+<Quiz
+  title="These are tricky! What gender?"
+  questions={[
+    {
+      question: "táta (dad)",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Masculine",
+      explanation: "Male person = masculine, despite -a ending"
+    },
+    {
+      question: "kost (bone)",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Feminine",
+      explanation: "Consonant exception = feminine"
+    },
+    {
+      question: "kolega (colleague)",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Masculine",
+      explanation: "Male person = masculine, despite -a ending"
+    },
+    {
+      question: "noc (night)",
+      options: ["Masculine", "Feminine", "Neuter"],
+      answer: "Feminine",
+      explanation: "Consonant exception = feminine"
+    }
+  ]}
+/>
+
+---
+
+## Masculine Plurals (Animate)
+
+<Quiz
+  title="Form the plural of these living masculine nouns"
+  questions={[
+    {
+      question: "student → ?",
+      answer: "studenti",
+      explanation: "Hard animate → -i"
+    },
+    {
+      question: "muž → ?",
+      answer: "muži",
+      explanation: "Soft animate → -i"
+    },
+    {
+      question: "kluk → ?",
+      answer: "kluci",
+      explanation: "k → c before -i"
+    },
+    {
+      question: "Čech → ?",
+      answer: "Češi",
+      explanation: "ch → š before -i"
+    },
+    {
+      question: "učitel → ?",
+      answer: "učitelé",
+      explanation: "-tel → -telé"
+    }
+  ]}
+/>
+
+---
+
+## Masculine Plurals (Inanimate)
+
+<Quiz
+  title="Form the plural of these non-living masculine nouns"
+  questions={[
+    {
+      question: "hrad → ?",
+      answer: "hrady",
+      explanation: "Hard inanimate → -y"
+    },
+    {
+      question: "les → ?",
+      answer: "lesy",
+      explanation: "Hard inanimate → -y"
+    },
+    {
+      question: "stroj → ?",
+      answer: "stroje",
+      explanation: "Soft inanimate → -e"
+    },
+    {
+      question: "pokoj → ?",
+      answer: "pokoje",
+      explanation: "Soft inanimate → -e"
+    }
+  ]}
+/>
+
+---
+
+## Feminine Plurals
+
+<Quiz
+  title="Form the plural"
+  questions={[
+    {
+      question: "žena → ?",
+      answer: "ženy",
+      explanation: "-a → -y"
+    },
+    {
+      question: "kniha → ?",
+      answer: "knihy",
+      explanation: "-a → -y"
+    },
+    {
+      question: "růže → ?",
+      answer: "růže",
+      explanation: "Soft feminine = no change"
+    },
+    {
+      question: "kost → ?",
+      answer: "kosti",
+      explanation: "Consonant feminine → -i"
+    },
+    {
+      question: "ulice → ?",
+      answer: "ulice",
+      explanation: "Soft feminine = no change"
+    }
+  ]}
+/>
+
+---
+
+## Neuter Plurals
+
+<Quiz
+  title="Form the plural"
+  questions={[
+    {
+      question: "město → ?",
+      answer: "města",
+      explanation: "-o → -a"
+    },
+    {
+      question: "auto → ?",
+      answer: "auta",
+      explanation: "-o → -a"
+    },
+    {
+      question: "moře → ?",
+      answer: "moře",
+      explanation: "Soft neuter = no change"
+    },
+    {
+      question: "okno → ?",
+      answer: "okna",
+      explanation: "-o → -a"
+    },
+    {
+      question: "stavení → ?",
+      answer: "stavení",
+      explanation: "-í neuter = no change"
+    }
+  ]}
+/>
+
+---
+
+## Irregular Plurals
+
+<Quiz
+  title="These common words have irregular plurals"
+  questions={[
+    {
+      question: "člověk (person) → ?",
+      answer: "lidé",
+      explanation: "Completely irregular - must memorize!"
+    },
+    {
+      question: "dítě (child) → ?",
+      answer: "děti",
+      explanation: "Irregular plural"
+    },
+    {
+      question: "oko (eye) → ?",
+      answer: "oči",
+      explanation: "Irregular - not okna!"
+    },
+    {
+      question: "ruka (hand) → ?",
+      answer: "ruce",
+      explanation: "Irregular - not ruky!"
+    }
+  ]}
+/>
+
+---
+
+## Adjective Endings (Singular)
+
+<Quiz
+  title="Add the correct adjective ending"
+  questions={[
+    {
+      question: "nov___ student (masculine)",
+      options: ["nový", "nová", "nové"],
+      answer: "nový",
+      explanation: "Masculine singular = -ý"
+    },
+    {
+      question: "nov___ kniha (feminine)",
+      options: ["nový", "nová", "nové"],
+      answer: "nová",
+      explanation: "Feminine singular = -á"
+    },
+    {
+      question: "nov___ město (neuter)",
+      options: ["nový", "nová", "nové"],
+      answer: "nové",
+      explanation: "Neuter singular = -é"
+    },
+    {
+      question: "ciz___ jazyk (masculine, soft adj.)",
+      options: ["cizý", "cizá", "cizí"],
+      answer: "cizí",
+      explanation: "Soft adjectives = -í for all genders"
+    }
+  ]}
+/>
+
+---
+
+## Adjective Endings (Plural)
+
+<Quiz
+  title="Add the correct plural adjective ending"
+  questions={[
+    {
+      question: "nov___ studenti (m. animate)",
+      options: ["noví", "nové", "nová"],
+      answer: "noví",
+      explanation: "Masculine animate plural = -í"
+    },
+    {
+      question: "nov___ hrady (m. inanimate)",
+      options: ["noví", "nové", "nová"],
+      answer: "nové",
+      explanation: "Masculine inanimate plural = -é"
+    },
+    {
+      question: "nov___ knihy (feminine)",
+      options: ["noví", "nové", "nová"],
+      answer: "nové",
+      explanation: "Feminine plural = -é"
+    },
+    {
+      question: "nov___ města (neuter)",
+      options: ["noví", "nové", "nová"],
+      answer: "nová",
+      explanation: "Neuter plural = -á"
+    }
+  ]}
+/>
+
+---
+
+## Personal Pronouns
+
+<Quiz
+  title="Choose the correct pronoun"
+  questions={[
+    {
+      question: "___ jsem student. (I)",
+      options: ["Já", "Ty", "On"],
+      answer: "Já",
+      explanation: "Já = I"
+    },
+    {
+      question: "___ jste z Prahy? (you, formal)",
+      options: ["Ty", "Vy", "Oni"],
+      answer: "Vy",
+      explanation: "Vy = you (formal/plural)"
+    },
+    {
+      question: "___ jsou studenti. (they, male group)",
+      options: ["Oni", "Ony", "Ona"],
+      answer: "Oni",
+      explanation: "Oni = they (masculine/mixed)"
+    },
+    {
+      question: "___ je krásná. (she)",
+      options: ["On", "Ona", "Ono"],
+      answer: "Ona",
+      explanation: "Ona = she"
+    }
+  ]}
+/>
+
+---
+
+## Mixed Challenge
+
+<Quiz
+  title="Test all your skills!"
+  questions={[
+    {
+      question: "What is the plural of 'velký student'?",
+      answer: "velcí studenti",
+      explanation: "Both adjective and noun change: velký → velcí, student → studenti"
+    },
+    {
+      question: "What is the plural of 'krásná žena'?",
+      answer: "krásné ženy",
+      explanation: "Both change: krásná → krásné, žena → ženy"
+    },
+    {
+      question: "What is the plural of 'nové město'?",
+      answer: "nová města",
+      explanation: "Both change: nové → nová, město → města"
+    },
+    {
+      question: "What gender is 'stavení'?",
+      answer: "neuter",
+      explanation: "-í ending = neuter"
+    },
+    {
+      question: "What is the plural of 'člověk'?",
+      answer: "lidé",
+      explanation: "Irregular - must memorize!"
+    }
+  ]}
+/>
+
+---
+
+## More Practice
+
+Want more exercises? Try the written versions:
+
+- [Gender Identification](/exercises/gender-id)
+- [Plural Formation](/exercises/plurals)
+- [Quick Reference](/quick-reference)
