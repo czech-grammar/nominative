@@ -1,0 +1,272 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Plurals",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#xmtzgz",
+      "name": "Overview",
+      "x": -246,
+      "y": -36,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#b9snuz",
+      "name": "Masculine Plurals",
+      "x": -141,
+      "y": -175,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#masculine-plurals",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nxqgmq",
+      "name": "Masculine Animate",
+      "x": -414,
+      "y": -239,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#masculine-animate-living-things",
+      "bgColor": "#efe6ff",
+      "parent": "#b9snuz"
+    },
+    {
+      "@id": "#dguykc",
+      "name": "Common Animate Patterns",
+      "x": -341,
+      "y": -409,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#common-animate-patterns",
+      "bgColor": "#efe6ff",
+      "parent": "#b9snuz"
+    },
+    {
+      "@id": "#28eue2",
+      "name": "Masculine Inanimate",
+      "x": -120,
+      "y": -413,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#masculine-inanimate-non-living-things",
+      "bgColor": "#efe6ff",
+      "parent": "#b9snuz"
+    },
+    {
+      "@id": "#f4n9qu",
+      "name": "Feminine Plurals",
+      "x": 156,
+      "y": -166,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#feminine-plurals",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#krwt6e",
+      "name": "-a Feminines → -y",
+      "x": 144,
+      "y": -407,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#-a-feminines--y",
+      "bgColor": "#ffe2ed",
+      "parent": "#f4n9qu"
+    },
+    {
+      "@id": "#emecna",
+      "name": "Soft Feminines → -e",
+      "x": 344,
+      "y": -408,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#soft-feminines--e",
+      "bgColor": "#ffe2ed",
+      "parent": "#f4n9qu"
+    },
+    {
+      "@id": "#u8v9bw",
+      "name": "Consonant Feminines → -i",
+      "x": 421,
+      "y": -229,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#consonant-feminines--i",
+      "bgColor": "#ffe2ed",
+      "parent": "#f4n9qu"
+    },
+    {
+      "@id": "#j6zbf9",
+      "name": "Neuter Plurals",
+      "x": 242,
+      "y": 54,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#neuter-plurals",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2z3p7w",
+      "name": "-o Neuters → -a",
+      "x": 500,
+      "y": -14,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#-o-neuters--a",
+      "bgColor": "#ffe4d9",
+      "parent": "#j6zbf9"
+    },
+    {
+      "@id": "#pvzwd8",
+      "name": "-e Neuters → -e",
+      "x": 571,
+      "y": 127,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#-e-neuters--e",
+      "bgColor": "#ffe4d9",
+      "parent": "#j6zbf9"
+    },
+    {
+      "@id": "#57iy7q",
+      "name": "-í Neuters → -í",
+      "x": 428,
+      "y": 220,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#-í-neuters--í",
+      "bgColor": "#ffe4d9",
+      "parent": "#j6zbf9"
+    },
+    {
+      "@id": "#qprvms",
+      "name": "Quick Reference Chart",
+      "x": 137,
+      "y": 169,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#quick-reference-chart",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7fucmt",
+      "name": "Consonant Changes",
+      "x": 90,
+      "y": 213,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#consonant-changes",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t922yq",
+      "name": "Irregular Plurals",
+      "x": -79,
+      "y": 219,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#irregular-plurals",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#26rfi6",
+      "name": "Practice",
+      "x": -134,
+      "y": 175,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#practice",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u28rkq",
+      "name": "Common Mistakes",
+      "x": -197,
+      "y": 130,
+      "link": "https://grammar.ilearnczech.com/nominative/plurals#common-mistakes",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#varvfj",
+      "name": "← 1. Nominative (1. pád)",
+      "x": -242,
+      "y": 52,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

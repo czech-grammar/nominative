@@ -1,0 +1,272 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Gender Cheatsheet",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#hzsqn4",
+      "name": "The Big Picture",
+      "x": -245,
+      "y": -42,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#the-big-picture",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dttxwc",
+      "name": "Masculine Nouns",
+      "x": -123,
+      "y": -185,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#masculine-nouns",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p8ysyk",
+      "name": "Hard Masculine",
+      "x": -394,
+      "y": -262,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#hard-masculine",
+      "bgColor": "#efe6ff",
+      "parent": "#dttxwc"
+    },
+    {
+      "@id": "#9c2qhr",
+      "name": "Soft Masculine",
+      "x": -324,
+      "y": -419,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#soft-masculine",
+      "bgColor": "#efe6ff",
+      "parent": "#dttxwc"
+    },
+    {
+      "@id": "#h59t8f",
+      "name": "Masculine -a Exceptions",
+      "x": -94,
+      "y": -418,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#masculine--a-exceptions",
+      "bgColor": "#efe6ff",
+      "parent": "#dttxwc"
+    },
+    {
+      "@id": "#rfby2g",
+      "name": "Feminine Nouns",
+      "x": 174,
+      "y": -152,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#feminine-nouns",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#arxjt8",
+      "name": "-a Feminines",
+      "x": 200,
+      "y": -390,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#-a-feminines-most-common",
+      "bgColor": "#ffe2ed",
+      "parent": "#rfby2g"
+    },
+    {
+      "@id": "#jtyjdw",
+      "name": "Soft Feminines",
+      "x": 397,
+      "y": -371,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#soft-feminines--e-ě",
+      "bgColor": "#ffe2ed",
+      "parent": "#rfby2g"
+    },
+    {
+      "@id": "#dtqx4z",
+      "name": "Consonant Feminines",
+      "x": 445,
+      "y": -193,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#consonant-feminines",
+      "bgColor": "#ffe2ed",
+      "parent": "#rfby2g"
+    },
+    {
+      "@id": "#u2s2vv",
+      "name": "Neuter Nouns",
+      "x": 230,
+      "y": 84,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#neuter-nouns",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vx2z65",
+      "name": "-o Neuters",
+      "x": 498,
+      "y": 35,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#-o-neuters-hard",
+      "bgColor": "#ffe4d9",
+      "parent": "#u2s2vv"
+    },
+    {
+      "@id": "#xwei9g",
+      "name": "-e Neuters",
+      "x": 542,
+      "y": 199,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#-e-neuters-soft",
+      "bgColor": "#ffe4d9",
+      "parent": "#u2s2vv"
+    },
+    {
+      "@id": "#6bzs4i",
+      "name": "-í Neuters",
+      "x": 372,
+      "y": 284,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#-í-neuters",
+      "bgColor": "#ffe4d9",
+      "parent": "#u2s2vv"
+    },
+    {
+      "@id": "#fkywkd",
+      "name": "Quick Decision Tree",
+      "x": 118,
+      "y": 200,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#quick-decision-tree",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#j8deiz",
+      "name": "Common Exceptions to Remember",
+      "x": -102,
+      "y": 200,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#common-exceptions-to-remember",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#aya9s9",
+      "name": "Masculine in -a",
+      "x": -64,
+      "y": 422,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#masculine-in--a",
+      "bgColor": "#ddf2de",
+      "parent": "#j8deiz"
+    },
+    {
+      "@id": "#vn2imx",
+      "name": "Feminine in Consonant",
+      "x": -287,
+      "y": 438,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#feminine-in-consonant",
+      "bgColor": "#ddf2de",
+      "parent": "#j8deiz"
+    },
+    {
+      "@id": "#2tznvh",
+      "name": "Memory Tip",
+      "x": -209,
+      "y": 117,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/gender#memory-tip",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cnh2fk",
+      "name": "← Cheatsheets",
+      "x": -245,
+      "y": 41,
+      "link": "./cheatsheets.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

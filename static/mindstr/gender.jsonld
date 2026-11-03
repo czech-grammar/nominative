@@ -1,0 +1,324 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Gender",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/gender",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ktiw89",
+      "name": "The Three Genders",
+      "x": -246,
+      "y": -39,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#the-three-genders",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#c74y5q",
+      "name": "Masculine Nouns",
+      "x": -135,
+      "y": -179,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#masculine-nouns",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#374kep",
+      "name": "Hard Masculine",
+      "x": -410,
+      "y": -243,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#hard-masculine-ends-in-hard-consonant",
+      "bgColor": "#efe6ff",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#ba2cgp",
+      "name": "Soft Masculine",
+      "x": -373,
+      "y": -388,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#soft-masculine-ends-in-soft-consonant",
+      "bgColor": "#efe6ff",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#h7ym9k",
+      "name": "Masculine Animate vs. Inanimate",
+      "x": -145,
+      "y": -407,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#masculine-animate-vs-inanimate",
+      "bgColor": "#efe6ff",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#ius84b",
+      "name": "Feminine Nouns",
+      "x": 139,
+      "y": -177,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#feminine-nouns",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#583aqh",
+      "name": "-a Feminines",
+      "x": 139,
+      "y": -408,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#-a-feminines-most-common",
+      "bgColor": "#ffe2ed",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#sbf4ee",
+      "name": "-e Feminines",
+      "x": 313,
+      "y": -425,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#-e-feminines-soft",
+      "bgColor": "#ffe2ed",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#t6q67m",
+      "name": "Consonant Feminines",
+      "x": 381,
+      "y": -275,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#consonant-feminines",
+      "bgColor": "#ffe2ed",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#abq85r",
+      "name": "Neuter Nouns",
+      "x": 250,
+      "y": 9,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#neuter-nouns",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sy2ncx",
+      "name": "-o Neuters",
+      "x": 486,
+      "y": -98,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#-o-neuters-hard",
+      "bgColor": "#ffe4d9",
+      "parent": "#abq85r"
+    },
+    {
+      "@id": "#fertai",
+      "name": "-e/-ě Neuters",
+      "x": 589,
+      "y": 22,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#-e-ě-neuters-soft",
+      "bgColor": "#ffe4d9",
+      "parent": "#abq85r"
+    },
+    {
+      "@id": "#9u36xp",
+      "name": "-í Neuters",
+      "x": 474,
+      "y": 134,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#-í-neuters",
+      "bgColor": "#ffe4d9",
+      "parent": "#abq85r"
+    },
+    {
+      "@id": "#5q2nc4",
+      "name": "Gender Identification Rules",
+      "x": 190,
+      "y": 138,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#gender-identification-rules",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eegh3a",
+      "name": "Quick Reference",
+      "x": 380,
+      "y": 276,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#quick-reference",
+      "bgColor": "#f2ecd2",
+      "parent": "#5q2nc4"
+    },
+    {
+      "@id": "#tmtdcb",
+      "name": "Common Exceptions",
+      "x": 103,
+      "y": 202,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#common-exceptions",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ziixui",
+      "name": "Masculine in -a",
+      "x": 237,
+      "y": 374,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#masculine-in--a",
+      "bgColor": "#ddf2de",
+      "parent": "#tmtdcb"
+    },
+    {
+      "@id": "#qnf7j2",
+      "name": "Feminine in Consonant",
+      "x": 100,
+      "y": 494,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#feminine-in-consonant",
+      "bgColor": "#ddf2de",
+      "parent": "#tmtdcb"
+    },
+    {
+      "@id": "#rx55k2",
+      "name": "How to Learn Gender",
+      "x": -74,
+      "y": 218,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#how-to-learn-gender",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ux93wm",
+      "name": "Memory Tricks",
+      "x": -119,
+      "y": 413,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#memory-tricks",
+      "bgColor": "#d1f3f4",
+      "parent": "#rx55k2"
+    },
+    {
+      "@id": "#a464iu",
+      "name": "Gender Agreement",
+      "x": -137,
+      "y": 172,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#gender-agreement",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#simp87",
+      "name": "Practice",
+      "x": -199,
+      "y": 128,
+      "link": "https://grammar.ilearnczech.com/nominative/gender#practice",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tzmucf",
+      "name": "← 1. Nominative (1. pád)",
+      "x": -243,
+      "y": 51,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    }
+  ],
+  "selectedNode": 0
+}

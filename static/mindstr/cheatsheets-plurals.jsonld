@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Plurals Cheatsheet",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dk76uz",
+      "name": "The Big Picture",
+      "x": -239,
+      "y": -63,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#the-big-picture",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5aggpq",
+      "name": "Masculine Plurals",
+      "x": -93,
+      "y": -197,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#masculine-plurals",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eqmaaw",
+      "name": "Animate",
+      "x": -293,
+      "y": -344,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#animate-living-things",
+      "bgColor": "#efe6ff",
+      "parent": "#5aggpq"
+    },
+    {
+      "@id": "#pjbq25",
+      "name": "Inanimate",
+      "x": -77,
+      "y": -497,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#inanimate-non-living-things",
+      "bgColor": "#efe6ff",
+      "parent": "#5aggpq"
+    },
+    {
+      "@id": "#tz98k5",
+      "name": "Feminine Plurals",
+      "x": 126,
+      "y": -184,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#feminine-plurals",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#437yyk",
+      "name": "Neuter Plurals",
+      "x": 227,
+      "y": -89,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#neuter-plurals",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#j3k2bu",
+      "name": "Consonant Changes",
+      "x": 245,
+      "y": 41,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#consonant-changes",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uhqx6j",
+      "name": "Irregular Plurals",
+      "x": 165,
+      "y": 160,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#irregular-plurals",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#aurbbn",
+      "name": "Quick Reference Table",
+      "x": 0,
+      "y": 213,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#quick-reference-table",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fxz322",
+      "name": "Memory Tips",
+      "x": -158,
+      "y": 165,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/plurals#memory-tips",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s77s87",
+      "name": "← Cheatsheets",
+      "x": -239,
+      "y": 62,
+      "link": "./cheatsheets.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    }
+  ],
+  "selectedNode": 0
+}

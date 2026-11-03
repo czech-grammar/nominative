@@ -1,0 +1,246 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Quick Reference",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5gpqg5",
+      "name": "The Basics",
+      "x": -245,
+      "y": -40,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#the-basics",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wzta82",
+      "name": "Gender at a Glance",
+      "x": -205,
+      "y": -121,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#gender-at-a-glance",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jw3kjf",
+      "name": "Plural Formation",
+      "x": -41,
+      "y": -210,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#plural-formation",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#r76gtv",
+      "name": "Masculine",
+      "x": -234,
+      "y": -376,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#masculine",
+      "bgColor": "#ffe2ed",
+      "parent": "#jw3kjf"
+    },
+    {
+      "@id": "#qmk4u7",
+      "name": "Feminine",
+      "x": -97,
+      "y": -495,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#feminine",
+      "bgColor": "#ffe2ed",
+      "parent": "#jw3kjf"
+    },
+    {
+      "@id": "#ysvez3",
+      "name": "Neuter",
+      "x": 78,
+      "y": -420,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#neuter",
+      "bgColor": "#ffe2ed",
+      "parent": "#jw3kjf"
+    },
+    {
+      "@id": "#83zuf9",
+      "name": "Adjective Endings",
+      "x": 179,
+      "y": -148,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#adjective-endings",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vrzefk",
+      "name": "Hard Adjectives",
+      "x": 297,
+      "y": -342,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#hard-adjectives-nový",
+      "bgColor": "#ffe4d9",
+      "parent": "#83zuf9"
+    },
+    {
+      "@id": "#hvyxxr",
+      "name": "Soft Adjectives",
+      "x": 485,
+      "y": -286,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#soft-adjectives-cizí",
+      "bgColor": "#ffe4d9",
+      "parent": "#83zuf9"
+    },
+    {
+      "@id": "#qahfae",
+      "name": "Personal Pronouns",
+      "x": 247,
+      "y": -35,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#personal-pronouns",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tgdsut",
+      "name": "Demonstratives",
+      "x": 243,
+      "y": 50,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#demonstratives-tentato",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ijf3kk",
+      "name": "Common Irregular Plurals",
+      "x": 189,
+      "y": 139,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#common-irregular-plurals",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#anp567",
+      "name": "Consonant Changes",
+      "x": 152,
+      "y": 199,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#consonant-changes-plurals",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#svn3gp",
+      "name": "Memory Chart",
+      "x": 2,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#memory-chart",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vbyvwg",
+      "name": "Key Examples",
+      "x": -129,
+      "y": 193,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#key-examples",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ahre4u",
+      "name": "Print This Page",
+      "x": -182,
+      "y": 146,
+      "link": "https://grammar.ilearnczech.com/nominative/quick-reference#print-this-page",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ibdfdz",
+      "name": "← 1. Nominative (1. pád)",
+      "x": -240,
+      "y": 59,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 3,
+      "end": 5
+    },
+    {
+      "start": 3,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adjectives",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ucttef",
+      "name": "The Basic Rule",
+      "x": -244,
+      "y": -44,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#the-basic-rule",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vzipyd",
+      "name": "Hard Adjectives",
+      "x": -167,
+      "y": -158,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#hard-adjectives--ý-á-é",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#miy6ts",
+      "name": "Singular",
+      "x": -394,
+      "y": -262,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#singular",
+      "bgColor": "#efe6ff",
+      "parent": "#vzipyd"
+    },
+    {
+      "@id": "#ft3k8u",
+      "name": "Plural",
+      "x": -310,
+      "y": -427,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#plural",
+      "bgColor": "#efe6ff",
+      "parent": "#vzipyd"
+    },
+    {
+      "@id": "#it6792",
+      "name": "Soft Adjectives",
+      "x": 53,
+      "y": -208,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#soft-adjectives--í",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dnz3gb",
+      "name": "Singular & Plural",
+      "x": -14,
+      "y": -425,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#singular-plural",
+      "bgColor": "#ffe2ed",
+      "parent": "#it6792"
+    },
+    {
+      "@id": "#3ifse5",
+      "name": "Common Soft Adjectives",
+      "x": 236,
+      "y": -460,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#common-soft-adjectives",
+      "bgColor": "#ffe2ed",
+      "parent": "#it6792"
+    },
+    {
+      "@id": "#ju3xzh",
+      "name": "Full Paradigm: Hard \"nový\"",
+      "x": 219,
+      "y": -103,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#full-paradigm-hard-nový",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p46jmx",
+      "name": "Full Paradigm: Soft \"cizí\"",
+      "x": 247,
+      "y": 33,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#full-paradigm-soft-cizí",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bu7kuh",
+      "name": "Common Hard Adjectives",
+      "x": 179,
+      "y": 148,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#common-hard-adjectives",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2iffkx",
+      "name": "Adjective Position",
+      "x": 104,
+      "y": 205,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#adjective-position",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ssgz3q",
+      "name": "Examples in Sentences",
+      "x": -84,
+      "y": 206,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#examples-in-sentences",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gksydt",
+      "name": "Practice",
+      "x": -169,
+      "y": 156,
+      "link": "https://grammar.ilearnczech.com/nominative/adjectives#practice",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8su7v6",
+      "name": "← 1. Nominative (1. pád)",
+      "x": -238,
+      "y": 65,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adjective Cheatsheet",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#k73rni",
+      "name": "Hard Adjectives",
+      "x": -202,
+      "y": -125,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#hard-adjectives-nový-dobrý-velký",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#r8zm2z",
+      "name": "Singular",
+      "x": -467,
+      "y": -152,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#singular",
+      "bgColor": "#daeeff",
+      "parent": "#k73rni"
+    },
+    {
+      "@id": "#wzv4c3",
+      "name": "Plural",
+      "x": -369,
+      "y": -391,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#plural",
+      "bgColor": "#daeeff",
+      "parent": "#k73rni"
+    },
+    {
+      "@id": "#7fnz2s",
+      "name": "Soft Adjectives",
+      "x": 3,
+      "y": -212,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#soft-adjectives-cizí-jarní-letní",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p89exh",
+      "name": "Common Hard Adjectives",
+      "x": 173,
+      "y": -154,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#common-hard-adjectives",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#urtpxv",
+      "name": "Common Soft Adjectives",
+      "x": 250,
+      "y": 11,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#common-soft-adjectives",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4dg5c4",
+      "name": "Memory Chart",
+      "x": 174,
+      "y": 152,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#memory-chart",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kwm3he",
+      "name": "Examples in Context",
+      "x": 18,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#examples-in-context",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qvd9cw",
+      "name": "Quick Tips",
+      "x": -146,
+      "y": 172,
+      "link": "https://grammar.ilearnczech.com/nominative/cheatsheets/adjectives#quick-tips",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sf37xb",
+      "name": "← Cheatsheets",
+      "x": -238,
+      "y": 66,
+      "link": "./cheatsheets.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    }
+  ],
+  "selectedNode": 0
+}

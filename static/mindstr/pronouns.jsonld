@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Pronouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#2da7xj",
+      "name": "Personal Pronouns",
+      "x": -240,
+      "y": -59,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#personal-pronouns",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9e878e",
+      "name": "Usage Notes",
+      "x": -145,
+      "y": -173,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#usage-notes",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cp2str",
+      "name": "Pronouns Are Often Dropped",
+      "x": -290,
+      "y": -346,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#pronouns-are-often-dropped",
+      "bgColor": "#efe6ff",
+      "parent": "#9e878e"
+    },
+    {
+      "@id": "#swzzzt",
+      "name": "Third Person Details",
+      "x": 68,
+      "y": -204,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#third-person-details",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pj9sd5",
+      "name": "Singular",
+      "x": 33,
+      "y": -424,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#singular",
+      "bgColor": "#ffe2ed",
+      "parent": "#swzzzt"
+    },
+    {
+      "@id": "#9incsq",
+      "name": "Plural",
+      "x": 276,
+      "y": -443,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#plural",
+      "bgColor": "#ffe2ed",
+      "parent": "#swzzzt"
+    },
+    {
+      "@id": "#gwp9qx",
+      "name": "Formal \"You\"",
+      "x": 214,
+      "y": -110,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#formal-you",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7csjb6",
+      "name": "Pronoun Chart",
+      "x": 250,
+      "y": -9,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#pronoun-chart",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cyfvb8",
+      "name": "Demonstrative Pronouns",
+      "x": 189,
+      "y": 139,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#demonstrative-pronouns",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ngjuhg",
+      "name": "Ten/Ta/To",
+      "x": 439,
+      "y": 204,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#tentato-that-the",
+      "bgColor": "#ddf2de",
+      "parent": "#cyfvb8"
+    },
+    {
+      "@id": "#ad25k5",
+      "name": "Tento/Tato/Toto",
+      "x": 355,
+      "y": 400,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#tentotatototo-this",
+      "bgColor": "#ddf2de",
+      "parent": "#cyfvb8"
+    },
+    {
+      "@id": "#6zhwac",
+      "name": "Interrogative Pronouns",
+      "x": 11,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#interrogative-pronouns",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sigj2h",
+      "name": "Practice",
+      "x": -143,
+      "y": 177,
+      "link": "https://grammar.ilearnczech.com/nominative/pronouns#practice",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2gvkzt",
+      "name": "← 1. Nominative (1. pád)",
+      "x": -233,
+      "y": 76,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    }
+  ],
+  "selectedNode": 0
+}

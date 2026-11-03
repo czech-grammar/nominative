@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Gender Identification",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#g45zx9",
+      "name": "Set 1: Basic Endings",
+      "x": -231,
+      "y": -81,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#set-1-basic-endings",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vz8rhu",
+      "name": "Set 2: Soft Stems",
+      "x": -106,
+      "y": -192,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#set-2-soft-stems",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#35gtrs",
+      "name": "Set 3: -í Endings",
+      "x": 63,
+      "y": -206,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#set-3--í-endings",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fiqrfa",
+      "name": "Set 4: Exceptions",
+      "x": 203,
+      "y": -124,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#set-4-exceptions",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fad69b",
+      "name": "Set 5: Mixed Practice",
+      "x": 248,
+      "y": 29,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#set-5-mixed-practice",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fnrzmm",
+      "name": "Mastery Challenge",
+      "x": 157,
+      "y": 165,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#mastery-challenge",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3y3s3p",
+      "name": "Tips for Success",
+      "x": 1,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#tips-for-success",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ujs2ci",
+      "name": "More Practice",
+      "x": -149,
+      "y": 171,
+      "link": "https://grammar.ilearnczech.com/nominative/exercises/gender-id#more-practice",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#442pm7",
+      "name": "← Exercises",
+      "x": -238,
+      "y": 65,
+      "link": "./exercises.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    }
+  ],
+  "selectedNode": 0
+}
